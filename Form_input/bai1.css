@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    margin:0 auto;
+    width:100%;
+    max-width: 700px;
+    border:1px solid black; 
+    background:#f1f1f1;  
+}
+.form{
+    margin:20px;
+}
+.form_group{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.form_group label{
+    width:30%;
+    text-align: right;
+    margin-right: 50px;
+    font-weight: bold;
+}
+.form_group input{
+    width:50%;
+    height:50px;
+    padding:20px;
+    border:none;
+    
+}
+.icon i {
+    width:50px;
+    height:50px;
+    border: 1px solid black;
+    text-align: center;
+    padding:15px;
+    
+    color:darkgray;
+}
+
+.button{
+    display:flex;
+    justify-content:center;
+    margin: 20px;   
+}
+.button button{
+    background-color: coral;
+    color:white;
+    width:100px;
+    height:40px;
+}

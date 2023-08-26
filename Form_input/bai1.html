@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai1</title>
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bai1.css">
+</head>
+<body>
+    <div class="container">
+        <form class="form">
+            <div class="form_group">
+                <label >First Name</label>
+                <div class="icon">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                </div>
+                <input type="text" placeholder="First Name">
+               
+            </div>
+            <div class="form_group">
+                <label>Last Name</label>
+                <div class="icon">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                </div>
+                <input type="text"  placeholder="Last Name">
+                
+            </div>
+            <div class="form_group">
+                <label >Department/Office</label>
+                
+                <div class="icon">
+                    <i class="fa fa-list" aria-hidden="true"></i>
+                </div> 
+                <input list="Department/Office" name="Department/Office" placeholder="Select your Department/Office"> 
+                <datalist id="Department/Office"> 
+                    <option value="Front-end Department"> 
+                    <option value="Back-end Department"> 
+                    <option value="Mobile App Department">  
+                </datalist> 
+                
+            </div>
+            <div class="form_group">
+                <label>User Name</label>
+                <div class="icon">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                </div>
+                <input type="text"  placeholder="User Name">
+               
+            </div>
+            <div class="form_group">
+                <label >Password</label>
+                
+                <div class="icon">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                </div>
+                <input type="password"  placeholder="Password">
+              
+            </div>
+            <div class="form_group">
+                <label >Confirm Password</label>
+               
+                <div class="icon">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                </div>
+                <input type="password"  placeholder="Confirm Password">
+               
+            </div>
+            <div class="form_group">
+                <label >E-Mail</label>
+                
+                <div class="icon">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>   
+                </div>  
+                <input type="email"  placeholder="E-Mail Address">  
+                
+            </div>
+            <div class="form_group">
+                <label >Contact No.</label>
+                
+                <div class="icon">
+                    <i class="fa fa-phone-square" aria-hidden="true"></i>
+                </div> 
+                <input type="number"  placeholder="(639)">  
+            </div>
+            <div class="button">
+                <button type="submit">
+                    Submit
+                    <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                </button>
+            </div>  
+        </form>
+    </div>
+</body>
+</html>

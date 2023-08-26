@@ -1,0 +1,28 @@
+
+.row1{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:10px;
+}
+.row2{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:10px;
+}
+.row_item1{
+    background:aqua;
+    height:300px;
+}
+.row_item2{
+    background:cadetblue;
+    height:300px;
+}
+.heart{
+    width:100px;
+    height:20px;
+    background:red;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-left: 200px;
+}

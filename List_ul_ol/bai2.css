@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    margin: 5px 10%;
+}
+
+nav{
+    background: #484848;
+    height: 50px;
+    border-radius: 5px;
+}
+nav ul{
+    position: relative;
+    height: 50px;
+} 
+
+nav ul li{
+    float: left;
+    list-style: none;
+    border-right: 1px solid #ccc;
+    border-left:1px solid #333;
+}
+nav ul li a{
+    display: block; 
+    padding: 0 25px;
+    line-height: 50px;
+    color: #f1f2f3;
+    text-decoration: none;
+}
+
+nav ul li:first-child {
+    border-left: none;
+}
+nav> ul li:first-child a{ 
+    border-left: none;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+nav ul li:hover>a{
+    background: red;
+    opacity: .7;
+    color: yellow;
+}
+
+
+

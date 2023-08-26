@@ -1,0 +1,28 @@
+input[type="text"]{
+    border:1px solid red;
+    height:30px;
+    width:200px;
+    background-color: aqua;
+}
+input[type=radio]{
+    width:60px;
+}
+input[type=checkbox]{
+    width:20px;
+    
+}
+
+input[type=submit]{
+    background-color: red;
+    border:2px solid black;
+    width:70px;
+    height:30px;
+    color:white;
+    margin: 10px;
+}
+select{
+    background-color: aqua;
+    border:1px solid black;
+    width:200px;
+    height:30px;
+}

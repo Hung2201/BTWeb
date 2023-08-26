@@ -1,0 +1,43 @@
+h3{
+    font-size: 30px;      
+}
+table{
+    /* margin:auto; */
+    width:50% ;
+    height:100%;
+    border-collapse:collapse;
+    background-color: bisque;
+    
+}
+th{
+    color:red;
+    background-color:aqua
+}
+tr:hover{
+    background-color:#ddd;
+    cursor:pointer;
+}
+table, th, td{
+    border:1px solid black;
+}
+img{
+    width:1000px; 
+    height:1000;
+    margin:auto; 
+    display:block; 
+    object-fit: cover;
+}
+
+#mx{
+    background-color: chartreuse;
+}
+
+#md{
+    background-color:brown;
+}
+#mv{
+    background-color: yellow;
+}
+#ma{
+    background-color: aqua;
+}
