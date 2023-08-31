@@ -5,7 +5,6 @@
 }
 .timkiem{
     display: flex;
-    margin-left: 300px;
 }
 .logo{
     margin-right: 5px;
@@ -29,6 +28,28 @@ input[type=text],input[type=datetime],input[type=search] {
     box-sizing: border-box;
     height: 20px;
     border-radius: 20px;
+    border: none;
+}
+#find{
+    display: flex;
+    background-color: red;
+    width:350x;
+    height:30px;
+    border-radius:10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-right: 15px;
+}
+.bogoctimkiem{
+    border: solid 1px  rgb(104, 98, 98);
+    border-radius: 20px;
+    margin: 8px 0;  
+    box-sizing: border-box;
+    padding-left: 40px;
+    margin-left: 400px;
+    height: 40px;
+    width: 500px;
 }
 .bogocmenu{
     padding-top: 1px;
@@ -44,13 +65,12 @@ input[type=text],input[type=datetime],input[type=search] {
 #menu{
     margin-bottom:30px ;
 }
-#user{
-}
-/* Chưa hover được menu sổ xuống */
+
 .menusoxuong{
     display: flex;
     margin-left: 200px;
     position: relative;
+    flex-wrap: nowrap;
 }
 .menusoxuong i{
     margin-left: 5px;
@@ -62,18 +82,19 @@ input[type=text],input[type=datetime],input[type=search] {
     border: 1px solid #ccc;
     padding: 0;
 }
-.bogocmenu i:hover>ul.sub-menu{
+p{
+    position: relative;
+}
+.bogocmenu#user:hover>.sub-menu{
     display: block;
 }
-sub-menu li {
-    display: block;
-  }
-/* ----------------- */
+
 
 .header2{
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
+    text-align: center;
 }
 .header2 p{
     margin-top: 0px;
@@ -87,4 +108,42 @@ sub-menu li {
     border-radius: 50%;
     background-color: #f1f1f1;
     margin-right: 5px;
+}
+.label p:hover{
+    background-color: aqua;
+    border-bottom: 2px solid black;
+}
+#pictures {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.img1 , img2 ,img3,img4 {
+    width: 90%;
+    height: 200px;
+    border-radius:12px;
+}
+.img2 {
+    width: 90%;
+    height: 200px;
+    border-radius:12px;
+}
+.img3 {
+    width: 90%;
+    height: 200px;
+    border-radius:12px;
+}
+.img4 {
+    width: 90%;
+    height: 200px;
+    border-radius:12px;
+}
+h5{
+    margin-bottom: 5px;
+}
+.subTitle {
+    display:flex;
+    gap:150px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
 }

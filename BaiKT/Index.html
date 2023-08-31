@@ -15,23 +15,25 @@
         <div class="header1">
             <img class="logo" src="images.png" alt="Logo">
             <h5>AirBnB</h5>
-            <div class="timkiem">
-                <input type="text" name="diachi" id="diachi" placeholder="Địa Điểm Bất Kỳ">
-                <input type="datetime" name="datetime" id="datetime" placeholder="Tuần Bất Kỳ">
-                <input type="search" name="search" id="search" placeholder="Thêm Khách">
-                <img src="" alt="">
+            <div class="bogoctimkiem">
+                <div class="timkiem">
+                    <input type="text" name="diachi" id="diachi" placeholder="Địa Điểm Bất Kỳ">
+                    <input type="datetime" name="datetime" id="datetime" placeholder="Tuần Bất Kỳ">
+                    <input type="search" name="search" id="search" placeholder="Thêm Khách">
+                    <i id="find"class="fa-solid fa-magnifying-glass" style="color: white;"></i>
+                </div>
             </div>
-            <div class="menusoxuong">
+                <div class="menusoxuong">
                 <p>Cho Thuê Chỗ Ở Qua AirBnB<i class="fa-solid fa-globe"></i></p>
                     <div class="bogocmenu">
                         <p id="menu"><i class="fa-solid fa-bars"></i></p>
-                        <p id="user"><i class="fa-solid fa-user"></i></p>
-                        <ul class="sub-menu">
-                            <li>Đăng Ký</li>
-                            <li>Đăng Nhập</li>
-                            <li>Cho Thuê Chỗ Ở Qua AirBnB</li>
-                            <li>Trung Tâm Trợ Giúp</li>
-                        </ul>
+                        <p><i id="user" class="fa-solid fa-user"></i></p>
+                            <ul class="sub-menu">
+                                <li>Đăng Ký</li>
+                                <li>Đăng Nhập</li>
+                                <li>Cho Thuê Chỗ Ở Qua AirBnB</li>
+                                <li>Trung Tâm Trợ Giúp</li>
+                            </ul>
                     </div>
             </div>
         </div>
@@ -62,26 +64,39 @@
                 </form>
         </div>
         <div class="header3">
-            <div>
-                <img src="" alt="">
-                <p><b>London, Vương Quốc Anh</b></p>
-                <p>Chủ Nhà:Amelia</p>
-                <p>Ngày 06 - Ngày 11 Tháng 9</p>
-                <p><b>$73</b>/Đêm</p>
-            </div>
-            <div>
-                <img src="" alt="">
-                <p><b>Torino, Ý</b></p>
-                <p>Chủ Nhà:Carmela</p>
-                <p>Ngày 14 - Ngày 19 Tháng 9</p>
-            </div>
-            <div>
-                <img src="" alt="">
-                <p><b></b></p>
-            </div>
-            <div>
-                <img src="" alt="">
-                <p><b></b></p>
+            <div id="pictures">
+                <div class="each-picture">
+                    <img class="img1" src="img1.webp" alt="">
+                    <div class="subTitle">
+                        <h5>London, Vương quốc Anh</h5>
+                        <p><i class="fa-solid fa-star"></i>4,83</p>
+                    </div>
+                    <p class="p">Chủ nhà: Amelia<br> Ngày 06 - Ngày 11 tháng 9 <br><b>$73</b>/ đêm </p>
+                </div>
+                <div class="each-picture">
+                    <img class="img1" src="img2.webp" alt="">
+                    <div class="subTitle">
+                        <h5>Torino, Ý</h5>
+                        <p><i class="fa-solid fa-star"></i>4,87</p>
+                    </div>
+                    <p class="p">Chủ nhà: Carmela <br> Ngày 14 - Ngày 19 tháng 9<br><b>$53</b>/ đêm </p>
+                </div>
+                <div class="each-picture">
+                    <img class="img1" src="img3.webp" alt="">
+                    <div class="subTitle">
+                        <h5>Nantes, Pháp</h5>
+                        <p><i class="fa-solid fa-star"></i> 4,97</p>
+                    </div>
+                    <p class="p">Chủ nhà: Golwen<br> Ngày 08 - Ngày 14 tháng 9<br><b>$89</b>/ đêm </p>
+                </div>
+                <div class="each-picture">
+                    <img class="img1" src="img4.webp" alt="">
+                    <div class="subTitle">
+                        <h5>Lion, Pháp</h5>
+                        <p><i class="fa-solid fa-star"></i>5,0</p>
+                    </div>
+                    <p class="p">Chủ nhà: Edouard. Huấn luyện viên<br>Ngày 15 - Ngày 20 tháng 9 <br><b>$100</b>/ đêm</p>
+                </div>
             </div>
         </div>    
     </div>
