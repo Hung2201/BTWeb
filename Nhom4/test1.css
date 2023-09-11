@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+table {
+    border-collapse: collapse;
+    border: none;
+    width: 100%;
+    border:1px solid black;
+   
+}
+
+thead {
+    background-color: orange;
+    color: white;
+    font-size: 25px;
+}
+
+thead th {
+    padding: 20px;  
+    text-align: left;
+
+}
+
+tbody tr {
+    height: 200px;
+    border: 1px solid #000;
+    width: 100%;
+    font-size: 22px;
+}
+
+tbody tr td {
+    padding: 10px 0px 10px 20px;
+    
+}
+
+
+tbody tr td:first-child {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+
+tbody tr td:first-child img {
+    height: 200px;
+    width: 190px;
+}
+
+
+tbody tr td .content {
+    text-align: center;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    font-size: 20px;
+}
+tbody tr td input{
+    width: 30px;
+}
+/* tbody tr td:last-child{
+    color: orange;
+} */
+.icon{
+    color:white;
+    background-color: rgb(176, 175, 178);
+    border: 1px;
+    padding: 5px;
+}
+.h4{
+    color: blue;
+}
+tbody tr td:last-child{
+    
+    display: flex;
+
+    
+  
+}
+tbody tr td:last-child p{
+    color: orange;
+}
+.h2 td:last-child{
+    position: relative;
+    top:-90px;
+}
+.h2 td input[type=number]{
+    text-align: center;
+    
+}
+.h2 td input{ 
+    background-color: bisque;
+    margin: -5px;
+    
+    height:30px;
+    width: 35px;
+}
+@media screen and (min-width: 768px) and (max-width:1024)   {
+    .h{
+        width:100%;
+    }
+    
+    .h .content h3 {
+        font-size: 16px;
+    }
+    .h .content p {
+        font-size: 12px;
+    }
+}
+
+
+    
+    
+   
+    /* body::-webkit-scrollbar{
+        display:none;
+    } */

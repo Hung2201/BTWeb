@@ -1,0 +1,164 @@
+a{
+    text-decoration: none;
+}
+.main-menu{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    width: 500px;
+    height: 90px;
+}
+.min{
+    display: flex;
+    list-style-type: none;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 20px;
+}
+.min.menu{
+    /* justify-content: end; */
+    gap: 10px;
+}
+.min li button{
+    background-color: white;
+    color: black;
+    border: 1px solid ;
+
+}
+
+.min.menu{
+    justify-content: end;
+}
+.menu{
+    display:flex ;
+    gap: 10px;
+}
+.nu{
+    display: flex;
+    margin-top: 50px;
+    list-style-type: none;
+    gap: 20px;
+    padding-left: 30px;
+}
+.Search input{
+    width: 300px;
+    height: 20px;
+    border-radius: 20px;
+    border: 1px solid;
+}
+.icon{
+    display: flex;
+}
+.man{
+    position: relative;
+    /* padding-left: 100px; */
+    padding-top: 60px;
+}
+.man h2{
+    color: rgb(145, 145, 79);
+}
+.img img {
+    position: absolute;
+    top: -5px;
+    height: 250px;
+}
+/* .img{
+    margin-left: 750px;
+} */
+.submit{
+    position: relative;
+    margin-top: 20px;
+    padding-left: 50px;
+}
+.submit input{
+    position: absolute;
+    top: 10px;
+    left: 2px;
+    background-color: yellowgreen;
+    cursor: pointer;
+    border: none;
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+/* menu2 */
+.container-1{
+    list-style-type: none;
+
+}
+.list{
+    padding-left: 20px;
+    display: flex;
+    gap:500px;
+
+}
+.list h2{
+    margin-top: 200px;
+    color: burlywood;
+}
+.list-menu{
+    display: block;
+    padding-top: 20px;
+    padding-left: 20px;
+    border: 1px;
+    background: rgb(203, 194, 194);
+    width: 150px;
+    height: 100%;
+}
+.list-menu li a{
+    display: block;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255,255,255, .1);
+    color: aliceblue;
+    width: 100%;
+    height: 100%;
+    transition: .4s;
+}
+.list-list-menu{
+    display: flex;
+    position: relative;
+}
+.container-2{
+    display: flex;
+    padding-top: 200px;
+    gap: 30px;
+    
+}
+
+.body_item2_div1 {
+    padding-top: 480px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    margin:20px;
+    display: flex;
+    gap: 100px;
+    justify-content: space-around;
+}
+.table_colum{
+    margin:20px;
+}
+.table_colum a{
+    color: black;
+    width: 30px;
+    background-color: rgb(147, 69, 69);
+    padding-left: 5px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+/* Thay doi kich thuoc man hinh */
+@media screen and (max-width: 1064px){
+    /*  */
+}
+@media screen and (min-width:768px){
+    .main{
+        width: 100%;
+    }
+    .container-2{
+        flex-wrap: wrap;
+    }
+}
