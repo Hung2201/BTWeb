@@ -74,8 +74,9 @@
     grid-template-columns: repeat(3,1fr) ;
     grid-template-rows: repeat(2,1fr);
     grid-template-areas:"right right left-top1 left-top2 " "right right left-bottom1 left-bottom2 ";
-    grid-row-gap:20px;grid-column-gap:20px ;
-    opacity:2.0
+    grid-row-gap:20px;
+    grid-column-gap:20px ;
+    opacity:2.0;
 }
 img{
     height: 100%;
